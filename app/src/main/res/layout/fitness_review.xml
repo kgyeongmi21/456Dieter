@@ -78,8 +78,8 @@
 
     <ImageButton
         android:id="@+id/like_button"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         android:layout_marginStart="92dp"
         android:layout_marginTop="16dp"
         android:scaleType="fitCenter"
@@ -88,22 +88,21 @@
         app:layout_constraintBottom_toTopOf="@+id/review_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Main_image"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.222" />
 
     <ImageButton
         android:id="@+id/dislike_button"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
         android:src="@drawable/dislike"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toEndOf="@+id/like_amount"
-        app:layout_constraintTop_toBottomOf="@+id/Main_image"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/Main_image" />
 
     <TextView
         android:id="@+id/dislike_amount"
@@ -200,6 +199,21 @@
         app:layout_constraintEnd_toStartOf="@+id/chat_bar"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/review_save"
+        android:layout_width="85dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:text="리뷰 저장"
+        android:outlineProvider="background"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/dislike_amount"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

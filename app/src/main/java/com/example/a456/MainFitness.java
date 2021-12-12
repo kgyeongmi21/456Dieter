@@ -16,6 +16,7 @@ public class MainFitness extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = FitnessMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        binding.buttonClose2.setOnClickListener(v ->finish());
 
         binding.imageMNfitness.setOnClickListener(v ->startDetailActivity());
     }
@@ -24,6 +25,11 @@ public class MainFitness extends AppCompatActivity {
     public void startDetailActivity() {
 
         Intent intent = new Intent(this, DetailFitness.class);
+        startActivity(intent);
+    }
+
+    public void finish() {
+        Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
 }
