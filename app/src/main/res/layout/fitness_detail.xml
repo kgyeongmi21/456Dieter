@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#595B5E"
+    android:background="#AE000000"
     tools:context=".DetailFitness">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -128,7 +128,7 @@
             android:layout_marginTop="28dp"
             android:background="#FFFFFF"
             android:gravity="start"
-            android:text=" copyright"
+            android:text="Copyright all rights reserved by Dieter456"
             android:textColor="#595B5E"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

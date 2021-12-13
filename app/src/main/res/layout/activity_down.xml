@@ -192,8 +192,8 @@
         android:id="@+id/text_copyright"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#DCDCDC"
-        android:text="copyright"
+        android:background="#FFFFFF"
+        android:text="Copyright all rights reserved by Dieter456"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

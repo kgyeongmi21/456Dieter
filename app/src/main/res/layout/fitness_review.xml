@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#595B5E"
+    android:background="#AE000000"
     tools:context=".ReviewFitness">
 
     <Button
@@ -95,12 +95,12 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
         android:src="@drawable/dislike"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/like_amount"
         app:layout_constraintTop_toBottomOf="@+id/Main_image" />
 
@@ -139,10 +139,11 @@
         android:layout_width="372dp"
         android:layout_height="394dp"
         android:layout_gravity="start"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:background="@android:color/transparent"
         android:gravity="top"
         android:hint="첫 리뷰를 달아주세요:)"
+        android:textColor="@color/white"
         android:scrollbars="vertical"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -167,7 +168,7 @@
         android:layout_marginTop="28dp"
         android:background="#FFFFFF"
         android:gravity="start"
-        android:text=" copyright"
+        android:text="Copyright all rights reserved by Dieter456"
         android:textColor="#595B5E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

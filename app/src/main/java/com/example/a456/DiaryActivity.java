@@ -53,6 +53,7 @@ public class DiaryActivity extends AppCompatActivity {
 
         binding.buttonWrite.setOnClickListener(v -> startContentsActivity());
         binding.buttonReview.setOnClickListener(v -> startReviewActivity());
+        binding.buttonBack.setOnClickListener(v -> finish());
     }
 
     private void startReviewActivity() {
@@ -64,6 +65,11 @@ public class DiaryActivity extends AppCompatActivity {
     private void startContentsActivity() {
         Intent intent = new Intent(this, ContentsActivity.class);
         intent.putExtra("selectedDate", selectedDate);
+        startActivity(intent);
+    }
+
+    public void finish() {
+        Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
 
